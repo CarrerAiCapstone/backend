@@ -1,0 +1,1002 @@
+[
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "python",
+    "display_name": "Python",
+    "importance": 0.95,
+    "step_order": 1,
+    "category": "Programming",
+    "difficulty": 1
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "sql",
+    "display_name": "SQL",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Database",
+    "difficulty": 1
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "statistics",
+    "display_name": "Statistika",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "Mathematics",
+    "difficulty": 2
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "machine_learning",
+    "display_name": "Machine Learning",
+    "importance": 0.85,
+    "step_order": 3,
+    "category": "AI/ML",
+    "difficulty": 3
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "data_visualization",
+    "display_name": "Visualisasi Data",
+    "importance": 0.75,
+    "step_order": 2,
+    "category": "Analytics",
+    "difficulty": 1
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "pandas",
+    "display_name": "Pandas",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Library",
+    "difficulty": 2
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "deep_learning",
+    "display_name": "Deep Learning",
+    "importance": 0.65,
+    "step_order": 4,
+    "category": "AI/ML",
+    "difficulty": 3
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "data_wrangling",
+    "display_name": "Data Wrangling",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Analytics",
+    "difficulty": 2
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.6,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 1,
+    "role_name": "Data Scientist",
+    "skill_name": "problem_solving",
+    "display_name": "Problem Solving",
+    "importance": 0.7,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "html_css",
+    "display_name": "HTML & CSS",
+    "importance": 0.95,
+    "step_order": 1,
+    "category": "Web",
+    "difficulty": 1
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "javascript",
+    "display_name": "JavaScript",
+    "importance": 0.95,
+    "step_order": 1,
+    "category": "Programming",
+    "difficulty": 1
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "react",
+    "display_name": "React",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "Framework",
+    "difficulty": 2
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "responsive_design",
+    "display_name": "Responsive Design",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Design",
+    "difficulty": 2
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "git",
+    "display_name": "Git",
+    "importance": 0.75,
+    "step_order": 1,
+    "category": "Tools",
+    "difficulty": 1
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "rest_api",
+    "display_name": "REST API",
+    "importance": 0.7,
+    "step_order": 3,
+    "category": "Web",
+    "difficulty": 2
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "typescript",
+    "display_name": "TypeScript",
+    "importance": 0.65,
+    "step_order": 3,
+    "category": "Programming",
+    "difficulty": 2
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "testing",
+    "display_name": "Testing",
+    "importance": 0.6,
+    "step_order": 3,
+    "category": "Quality",
+    "difficulty": 2
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "problem_solving",
+    "display_name": "Problem Solving",
+    "importance": 0.7,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 2,
+    "role_name": "Frontend Developer",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.55,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "python",
+    "display_name": "Python",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Programming",
+    "difficulty": 1
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "sql",
+    "display_name": "SQL",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Database",
+    "difficulty": 1
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "rest_api",
+    "display_name": "REST API",
+    "importance": 0.9,
+    "step_order": 2,
+    "category": "Web",
+    "difficulty": 2
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "git",
+    "display_name": "Git",
+    "importance": 0.8,
+    "step_order": 1,
+    "category": "Tools",
+    "difficulty": 1
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "database_design",
+    "display_name": "Database Design",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "Database",
+    "difficulty": 2
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "authentication",
+    "display_name": "Authentication & Security",
+    "importance": 0.75,
+    "step_order": 3,
+    "category": "Security",
+    "difficulty": 3
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "docker",
+    "display_name": "Docker",
+    "importance": 0.65,
+    "step_order": 3,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "testing",
+    "display_name": "Testing",
+    "importance": 0.7,
+    "step_order": 2,
+    "category": "Quality",
+    "difficulty": 2
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "problem_solving",
+    "display_name": "Problem Solving",
+    "importance": 0.75,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 3,
+    "role_name": "Backend Developer",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.55,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "sql",
+    "display_name": "SQL",
+    "importance": 0.95,
+    "step_order": 1,
+    "category": "Database",
+    "difficulty": 1
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "excel",
+    "display_name": "Excel",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Tools",
+    "difficulty": 1
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "data_visualization",
+    "display_name": "Visualisasi Data",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "Analytics",
+    "difficulty": 1
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "statistics",
+    "display_name": "Statistika",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Mathematics",
+    "difficulty": 2
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "python",
+    "display_name": "Python",
+    "importance": 0.7,
+    "step_order": 2,
+    "category": "Programming",
+    "difficulty": 1
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "tableau",
+    "display_name": "Tableau",
+    "importance": 0.65,
+    "step_order": 3,
+    "category": "Tools",
+    "difficulty": 2
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "data_wrangling",
+    "display_name": "Data Wrangling",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Analytics",
+    "difficulty": 2
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.7,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "critical_thinking",
+    "display_name": "Critical Thinking",
+    "importance": 0.75,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 4,
+    "role_name": "Data Analyst",
+    "skill_name": "problem_solving",
+    "display_name": "Problem Solving",
+    "importance": 0.7,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "figma",
+    "display_name": "Figma",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Tools",
+    "difficulty": 1
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "user_research",
+    "display_name": "User Research",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Research",
+    "difficulty": 2
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "wireframing",
+    "display_name": "Wireframing",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "Design",
+    "difficulty": 1
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "prototyping",
+    "display_name": "Prototyping",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Design",
+    "difficulty": 2
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "responsive_design",
+    "display_name": "Responsive Design",
+    "importance": 0.75,
+    "step_order": 2,
+    "category": "Design",
+    "difficulty": 2
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "design_systems",
+    "display_name": "Design Systems",
+    "importance": 0.7,
+    "step_order": 3,
+    "category": "Design",
+    "difficulty": 3
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "usability_testing",
+    "display_name": "Usability Testing",
+    "importance": 0.75,
+    "step_order": 3,
+    "category": "Research",
+    "difficulty": 2
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "html_css",
+    "display_name": "HTML & CSS",
+    "importance": 0.6,
+    "step_order": 3,
+    "category": "Web",
+    "difficulty": 1
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.7,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 5,
+    "role_name": "UI/UX Designer",
+    "skill_name": "empathy",
+    "display_name": "Empati",
+    "importance": 0.65,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "seo",
+    "display_name": "SEO",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Marketing",
+    "difficulty": 2
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "social_media",
+    "display_name": "Social Media Marketing",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Marketing",
+    "difficulty": 1
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "content_marketing",
+    "display_name": "Content Marketing",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Marketing",
+    "difficulty": 2
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "google_analytics",
+    "display_name": "Google Analytics",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Analytics",
+    "difficulty": 2
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "sem",
+    "display_name": "SEM/Google Ads",
+    "importance": 0.75,
+    "step_order": 2,
+    "category": "Marketing",
+    "difficulty": 2
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "email_marketing",
+    "display_name": "Email Marketing",
+    "importance": 0.65,
+    "step_order": 3,
+    "category": "Marketing",
+    "difficulty": 2
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "copywriting",
+    "display_name": "Copywriting",
+    "importance": 0.7,
+    "step_order": 1,
+    "category": "Content",
+    "difficulty": 2
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "data_visualization",
+    "display_name": "Visualisasi Data",
+    "importance": 0.6,
+    "step_order": 3,
+    "category": "Analytics",
+    "difficulty": 1
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.75,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 6,
+    "role_name": "Digital Marketing",
+    "skill_name": "creativity",
+    "display_name": "Kreativitas",
+    "importance": 0.7,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "kotlin",
+    "display_name": "Kotlin",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Programming",
+    "difficulty": 2
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "flutter",
+    "display_name": "Flutter",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Framework",
+    "difficulty": 2
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "rest_api",
+    "display_name": "REST API",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Web",
+    "difficulty": 2
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "git",
+    "display_name": "Git",
+    "importance": 0.75,
+    "step_order": 1,
+    "category": "Tools",
+    "difficulty": 1
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "mobile_ui",
+    "display_name": "Mobile UI Design",
+    "importance": 0.7,
+    "step_order": 2,
+    "category": "Design",
+    "difficulty": 2
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "firebase",
+    "display_name": "Firebase",
+    "importance": 0.65,
+    "step_order": 3,
+    "category": "Backend",
+    "difficulty": 2
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "testing",
+    "display_name": "Testing",
+    "importance": 0.65,
+    "step_order": 3,
+    "category": "Quality",
+    "difficulty": 2
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "app_store_optimization",
+    "display_name": "App Store Optimization",
+    "importance": 0.55,
+    "step_order": 4,
+    "category": "Marketing",
+    "difficulty": 2
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "problem_solving",
+    "display_name": "Problem Solving",
+    "importance": 0.75,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 7,
+    "role_name": "Mobile Developer",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.55,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "linux",
+    "display_name": "Linux",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "OS",
+    "difficulty": 2
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "docker",
+    "display_name": "Docker",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "ci_cd",
+    "display_name": "CI/CD",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "kubernetes",
+    "display_name": "Kubernetes",
+    "importance": 0.8,
+    "step_order": 3,
+    "category": "DevOps",
+    "difficulty": 3
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "aws",
+    "display_name": "AWS/Cloud",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "Cloud",
+    "difficulty": 2
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "terraform",
+    "display_name": "Terraform",
+    "importance": 0.7,
+    "step_order": 3,
+    "category": "IaC",
+    "difficulty": 3
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "monitoring",
+    "display_name": "Monitoring & Logging",
+    "importance": 0.75,
+    "step_order": 3,
+    "category": "DevOps",
+    "difficulty": 2
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "bash",
+    "display_name": "Bash Scripting",
+    "importance": 0.8,
+    "step_order": 1,
+    "category": "Programming",
+    "difficulty": 2
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "problem_solving",
+    "display_name": "Problem Solving",
+    "importance": 0.8,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 8,
+    "role_name": "DevOps Engineer",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.6,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "product_strategy",
+    "display_name": "Product Strategy",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Strategy",
+    "difficulty": 3
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "user_research",
+    "display_name": "User Research",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Research",
+    "difficulty": 2
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "agile",
+    "display_name": "Agile/Scrum",
+    "importance": 0.85,
+    "step_order": 2,
+    "category": "Methodology",
+    "difficulty": 2
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "data_analysis",
+    "display_name": "Data Analysis",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Analytics",
+    "difficulty": 2
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "roadmapping",
+    "display_name": "Roadmapping",
+    "importance": 0.75,
+    "step_order": 2,
+    "category": "Strategy",
+    "difficulty": 2
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "stakeholder_management",
+    "display_name": "Stakeholder Management",
+    "importance": 0.8,
+    "step_order": 1,
+    "category": "Management",
+    "difficulty": 3
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "wireframing",
+    "display_name": "Wireframing",
+    "importance": 0.6,
+    "step_order": 3,
+    "category": "Design",
+    "difficulty": 1
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "sql",
+    "display_name": "SQL",
+    "importance": 0.65,
+    "step_order": 3,
+    "category": "Database",
+    "difficulty": 1
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 9,
+    "role_name": "Product Manager",
+    "skill_name": "leadership",
+    "display_name": "Leadership",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 2
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "business_analysis",
+    "display_name": "Business Analysis",
+    "importance": 0.95,
+    "step_order": 1,
+    "category": "Analysis",
+    "difficulty": 2
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "sql",
+    "display_name": "SQL",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Database",
+    "difficulty": 1
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "excel",
+    "display_name": "Excel",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Tools",
+    "difficulty": 1
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "data_visualization",
+    "display_name": "Visualisasi Data",
+    "importance": 0.8,
+    "step_order": 2,
+    "category": "Analytics",
+    "difficulty": 1
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "requirements_gathering",
+    "display_name": "Requirements Gathering",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Analysis",
+    "difficulty": 2
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "process_mapping",
+    "display_name": "Process Mapping",
+    "importance": 0.75,
+    "step_order": 2,
+    "category": "Analysis",
+    "difficulty": 2
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "agile",
+    "display_name": "Agile/Scrum",
+    "importance": 0.7,
+    "step_order": 2,
+    "category": "Methodology",
+    "difficulty": 2
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "stakeholder_management",
+    "display_name": "Stakeholder Management",
+    "importance": 0.8,
+    "step_order": 1,
+    "category": "Management",
+    "difficulty": 3
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "komunikasi",
+    "display_name": "Komunikasi",
+    "importance": 0.9,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  },
+  {
+    "role_id": 10,
+    "role_name": "Business Analyst",
+    "skill_name": "critical_thinking",
+    "display_name": "Critical Thinking",
+    "importance": 0.85,
+    "step_order": 1,
+    "category": "Soft Skill",
+    "difficulty": 1
+  }
+]

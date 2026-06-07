@@ -1,0 +1,1382 @@
+{
+  "agile": [
+    {
+      "id": "agile_1",
+      "question": "Dalam framework Scrum, siapa yang bertanggung jawab untuk memaksimalkan nilai produk yang dihasilkan oleh Tim Pengembang?",
+      "options": ["Product Owner", "Scrum Master", "Development Team Lead", "Stakeholder Utama"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "agile_2",
+      "question": "Sebuah tim Scrum sedang mengalami kesulitan menyelesaikan semua item Sprint Backlog. Apa tindakan paling tepat yang harus dilakukan berdasarkan prinsip Agile?",
+      "options": ["Memperpanjang durasi Sprint agar semua item selesai", "Menambahkan anggota tim baru di tengah Sprint", "Berkolaborasi dengan Product Owner untuk menegosiasikan ulang lingkup Sprint", "Meminta tim bekerja lembur hingga semua item selesai"],
+      "correct_index": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "agile_3",
+      "question": "Apa perbedaan utama antara burndown chart dan burnup chart dalam pelacakan progres Scrum?",
+      "options": ["Burndown menunjukkan pekerjaan tersisa, burnup menunjukkan pekerjaan selesai DAN perubahan lingkup", "Burndown hanya untuk Sprint, burnup hanya untuk rilis", "Keduanya identik, hanya berbeda format visual", "Burnup menggunakan story point, burndown menggunakan jam kerja"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "app_store_optimization": [
+    {
+      "id": "app_store_optimization_1",
+      "question": "Elemen mana yang PALING berpengaruh terhadap peringkat pencarian aplikasi di Google Play Store?",
+      "options": ["Judul aplikasi dan deskripsi singkat", "Jumlah komentar pengguna", "Ukuran file APK", "Tanggal rilis terakhir"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "app_store_optimization_2",
+      "question": "Dalam strategi ASO, apa yang dimaksud dengan 'keyword cannibalization' dan bagaimana dampaknya?",
+      "options": ["Menggunakan kata kunci yang sama di judul dan deskripsi — meningkatkan peringkat", "Dua aplikasi dari developer yang sama bersaing untuk kata kunci yang sama — menurunkan visibilitas keduanya", "Menyalin kata kunci dari kompetitor — menyebabkan penalti dari App Store", "Terlalu banyak kata kunci dalam deskripsi — memperlambat loading halaman"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "app_store_optimization_3",
+      "question": "Bagaimana algoritma App Store memperlakukan kata kunci yang muncul di subtitle iOS versus di keyword field yang tersembunyi?",
+      "options": ["Subtitle memiliki bobot lebih tinggi daripada keyword field", "Keyword field memiliki bobot lebih tinggi daripada subtitle", "Keduanya memiliki bobot yang sama persis", "Subtitle tidak diindeks untuk pencarian, hanya keyword field yang diindeks"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "authentication": [
+    {
+      "id": "authentication_1",
+      "question": "Dalam konteks keamanan web, apa perbedaan mendasar antara otentikasi (authentication) dan otorisasi (authorization)?",
+      "options": ["Otentikasi memverifikasi identitas, otorisasi menentukan hak akses", "Otentikasi menggunakan password, otorisasi menggunakan token", "Keduanya adalah istilah yang sama untuk proses login", "Otentikasi untuk pengguna, otorisasi untuk admin"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "authentication_2",
+      "question": "Sebuah aplikasi menggunakan JWT dengan refresh token. Apa strategi paling aman untuk menyimpan access token dan refresh token di sisi klien web?",
+      "options": ["Keduanya disimpan di localStorage", "Access token di memory, refresh token di httpOnly cookie", "Keduanya disimpan di sessionStorage", "Access token di cookie, refresh token di localStorage"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "authentication_3",
+      "question": "Dalam implementasi OAuth 2.0 Authorization Code Flow dengan PKCE, mengapa PKCE diperlukan meskipun sudah menggunakan client secret?",
+      "options": ["PKCE menggantikan client secret sepenuhnya", "PKCE mencegah authorization code interception attack pada public clients yang tidak bisa menjaga client secret", "PKCE adalah pengganti state parameter untuk mencegah CSRF", "PKCE hanya diperlukan untuk mobile apps, bukan web apps"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "aws": [
+    {
+      "id": "aws_1",
+      "question": "Layanan AWS mana yang paling tepat untuk menjalankan kode tanpa perlu mengelola server?",
+      "options": ["AWS Lambda", "Amazon EC2", "Amazon ECS", "AWS Elastic Beanstalk"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "aws_2",
+      "question": "Anda memiliki aplikasi yang membutuhkan latensi sangat rendah untuk pengguna di Jakarta dan London. Strategi arsitektur AWS apa yang paling tepat?",
+      "options": ["Menggunakan satu region dengan CloudFront CDN", "Deploy aplikasi di region ap-southeast-3 dan eu-west-2 dengan Route 53 latency-based routing", "Menggunakan S3 Transfer Acceleration", "Mendeploy di region us-east-1 karena paling murah"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "aws_3",
+      "question": "Dalam arsitektur mikroservis di AWS, apa trade-off utama antara menggunakan Amazon SQS + Lambda dibandingkan dengan Amazon MSK (Managed Streaming for Apache Kafka)?",
+      "options": ["SQS lebih mahal tetapi lebih cepat", "SQS menjamin urutan pesan, Kafka tidak", "SQS lebih sederhana dan managed, MSK memberi kontrol lebih atas partisi, replay, dan ordering kompleks namun butuh operasional lebih besar", "MSK selalu lebih murah untuk throughput tinggi"],
+      "correct_index": 2,
+      "difficulty": 3
+    }
+  ],
+  "bash": [
+    {
+      "id": "bash_1",
+      "question": "Apa fungsi dari shebang '#!/bin/bash' di baris pertama sebuah script Bash?",
+      "options": ["Komentar untuk dokumentasi script", "Menentukan interpreter yang akan mengeksekusi script", "Mendefinisikan variabel global", "Mengimpor library Bash eksternal"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "bash_2",
+      "question": "Apa perbedaan antara penggunaan single quotes ('') dan double quotes (\"\") dalam Bash ketika mendefinisikan string yang mengandung variabel?",
+      "options": ["Tidak ada perbedaan, keduanya sama", "Single quotes mencegah ekspansi variabel, double quotes mengizinkan ekspansi variabel", "Double quotes mencegah ekspansi variabel, single quotes mengizinkannya", "Single quotes hanya untuk string pendek, double quotes untuk string panjang"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "bash_3",
+      "question": "Apa yang terjadi jika Anda menjalankan perintah '(command) &' dibandingkan dengan 'command &' di Bash, dan mengapa perbedaannya signifikan dalam pengelolaan proses?",
+      "options": ["Keduanya identik, tanda kurung tidak berpengaruh", "Tanda kurung menjalankan command di subshell terpisah dengan environment yang terisolasi", "Tanda kurung membuat command berjalan dengan prioritas lebih tinggi", "Tanda kurung mencegah command berjalan di background"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "business_analysis": [
+    {
+      "id": "business_analysis_1",
+      "question": "Dalam Business Analysis, apa tujuan utama dari dokumen Business Requirement Document (BRD)?",
+      "options": ["Menjelaskan arsitektur teknis sistem", "Mendefinisikan kebutuhan bisnis tingkat tinggi dan tujuan proyek", "Membuat jadwal pengembangan software", "Mendokumentasikan kode program"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "business_analysis_2",
+      "question": "Seorang Business Analyst menemukan bahwa kebutuhan yang disampaikan stakeholder A bertentangan dengan kebutuhan stakeholder B. Teknik apa yang paling tepat untuk menyelesaikan konflik ini?",
+      "options": ["Memprioritaskan kebutuhan stakeholder yang jabatannya lebih tinggi", "Melakukan requirements workshop dengan kedua stakeholder untuk mencari win-win solution", "Mengabaikan kedua kebutuhan dan membuat kebutuhan baru", "Memilih kebutuhan yang lebih mudah diimplementasikan"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "business_analysis_3",
+      "question": "Apa perbedaan kritis antara teknik MoSCoW dan Kano Model dalam prioritisasi kebutuhan?",
+      "options": ["MoSCoW mengelompokkan berdasarkan waktu, Kano berdasarkan biaya", "MoSCoW memprioritaskan berdasarkan kebutuhan (Must/Should/Could/Won't), Kano mengklasifikasikan fitur berdasarkan dampaknya terhadap kepuasan pengguna", "MoSCoW hanya untuk proyek Agile, Kano hanya untuk Waterfall", "Keduanya adalah teknik yang sama dengan nama berbeda"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "ci_cd": [
+    {
+      "id": "ci_cd_1",
+      "question": "Apa perbedaan utama antara Continuous Integration (CI) dan Continuous Delivery (CD)?",
+      "options": ["CI fokus pada testing otomatis dan integrasi kode, CD fokus pada deployment otomatis ke production", "Keduanya adalah istilah yang sama", "CI untuk frontend, CD untuk backend", "CI menggunakan Git, CD menggunakan Docker"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "ci_cd_2",
+      "question": "Dalam pipeline CI/CD, Anda menerapkan strategi blue-green deployment. Apa yang terjadi jika ditemukan bug kritis setelah switch traffic ke environment hijau?",
+      "options": ["Harus melakukan rollback manual dengan git revert", "Langsung switch traffic kembali ke environment biru yang masih berjalan", "Harus menunggu environment biru dibangun ulang dari awal", "Melakukan hotfix di environment hijau tanpa rollback"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "ci_cd_3",
+      "question": "Dalam pipeline Jenkins declarative, apa perbedaan fungsional antara 'agent none' di level pipeline dengan 'agent any' di level stage, dan kapan kombinasi ini berguna?",
+      "options": ["Tidak ada perbedaan, keduanya sama saja", "'agent none' di pipeline memaksa setiap stage mendefinisikan agent-nya sendiri, berguna untuk parallel stages di node berbeda tanpa deadlock resource", "'agent none' hanya untuk testing, 'agent any' untuk deployment", "'agent none' menonaktifkan semua stage dalam pipeline"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "content_marketing": [
+    {
+      "id": "content_marketing_1",
+      "question": "Apa tujuan utama dari content marketing dibandingkan dengan iklan tradisional?",
+      "options": ["Menjual produk secara langsung kepada konsumen", "Memberikan nilai dan membangun kepercayaan audiens melalui konten yang relevan", "Mengurangi biaya operasional perusahaan", "Meningkatkan kecepatan loading website"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "content_marketing_2",
+      "question": "Anda mengelola content marketing untuk startup fintech Indonesia. Konten jenis apa yang paling efektif untuk tahap 'consideration' dalam funnel pemasaran?",
+      "options": ["Postingan media sosial tentang promo diskon", "Whitepaper dan studi kasus yang menunjukkan kredibilitas dan hasil nyata", "Iklan banner di website berita", "Testimoni pelanggan dalam bentuk video pendek"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "content_marketing_3",
+      "question": "Bagaimana strategi 'content atomization' bekerja dan mengapa strategi ini efisien untuk tim konten dengan sumber daya terbatas?",
+      "options": ["Membuat satu konten besar lalu memecahnya menjadi banyak konten kecil untuk berbagai platform", "Menggabungkan banyak konten kecil menjadi satu ebook besar", "Menghapus konten lama dan hanya fokus pada konten baru", "Menggunakan AI untuk menggantikan seluruh tim konten"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "copywriting": [
+    {
+      "id": "copywriting_1",
+      "question": "Apa elemen terpenting dalam sebuah headline copywriting yang efektif?",
+      "options": ["Menggunakan kata-kata teknis yang canggih", "Mampu menarik perhatian dan membuat pembaca ingin tahu lebih lanjut", "Selalu menggunakan huruf kapital semua", "Menyebutkan nama perusahaan di awal"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "copywriting_2",
+      "question": "Dalam formula copywriting AIDA, apa yang membedakan tahap 'Desire' dari tahap 'Interest'?",
+      "options": ["Interest tentang fitur produk, Desire membangkitkan keinginan emosional untuk memiliki produk", "Tidak ada perbedaan, keduanya sama", "Desire fokus pada harga, Interest fokus pada kualitas", "Interest untuk B2B, Desire untuk B2C"],
+      "correct_index": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "copywriting_3",
+      "question": "Mengapa teknik 'slippery slide' dalam copywriting panjang (long-form) efektif, dan bagaimana mekanisme psikologis di baliknya?",
+      "options": ["Karena pembaca suka teks yang panjang dan detail", "Karena setiap kalimat dirancang membuat pembaca ingin membaca kalimat berikutnya, menciptakan momentum yang sulit dihentikan", "Karena Google memberi peringkat lebih tinggi untuk konten panjang", "Karena pembaca Indonesia lebih suka konten panjang daripada konten pendek"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "creativity": [
+    {
+      "id": "creativity_1",
+      "question": "Teknik brainstorming mana yang paling efektif untuk menghasilkan ide-ide inovatif dalam tim?",
+      "options": ["Hanya mendengarkan ide dari orang yang paling senior", "Mendorong setiap anggota tim untuk menyampaikan ide tanpa kritik di tahap awal", "Langsung mengevaluasi setiap ide begitu disampaikan", "Hanya fokus pada satu ide sampai selesai"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "creativity_2",
+      "question": "Seorang desainer produk mendapat brief yang sangat ketat dengan banyak batasan teknis. Bagaimana cara terbaik tetap menghasilkan solusi kreatif dalam situasi ini?",
+      "options": ["Mengabaikan batasan teknis dan fokus pada desain ideal", "Menggunakan batasan sebagai pemicu kreativitas dengan metode 'creative constraints' untuk menemukan solusi dalam koridor yang ada", "Meminta brief diubah total", "Menyalin desain kompetitor yang sudah terbukti berhasil"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "creativity_3",
+      "question": "Apa perbedaan antara 'divergent thinking' dan 'convergent thinking' dalam proses kreatif, dan kapan waktu yang tepat menggunakan masing-masing?",
+      "options": ["Divergent thinking untuk eksplorasi ide sebanyak mungkin di awal, convergent thinking untuk seleksi dan penyempurnaan ide di tahap akhir", "Divergent thinking untuk analisis data, convergent thinking untuk brainstorming", "Keduanya harus digunakan secara bersamaan setiap saat", "Divergent thinking hanya untuk seniman, convergent thinking untuk insinyur"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "critical_thinking": [
+    {
+      "id": "critical_thinking_1",
+      "question": "Apa langkah pertama yang harus dilakukan ketika menghadapi sebuah klaim atau informasi baru yang belum diverifikasi?",
+      "options": ["Langsung mempercayainya jika berasal dari sumber terkenal", "Mempertanyakan sumber, bukti, dan asumsi di balik klaim tersebut", "Menyebarkannya ke rekan kerja untuk opini", "Mencatatnya tanpa evaluasi"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "critical_thinking_2",
+      "question": "Tim Anda mengusulkan solusi mahal untuk masalah penurunan retensi pengguna. Data menunjukkan korelasi antara fitur baru dan penurunan retensi. Apa kelemahan logis yang perlu diwaspadai?",
+      "options": ["Korelasi pasti berarti kausalitas", "Korelasi tidak membuktikan kausalitas — mungkin ada faktor ketiga yang menyebabkan keduanya", "Data retensi selalu akurat dan tidak perlu dipertanyakan", "Fitur baru selalu menyebabkan penurunan retensi"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "critical_thinking_3",
+      "question": "Apa yang dimaksud dengan 'confirmation bias' dalam pengambilan keputusan bisnis, dan bagaimana cara paling efektif untuk menguranginya dalam analisis data?",
+      "options": ["Kecenderungan mencari bukti yang mendukung keyakinan awal dan mengabaikan bukti kontradiktif — diatasi dengan 'red team thinking' dan blind analysis", "Kesalahan dalam mengkonfirmasi email — diatasi dengan double opt-in", "Bias karena terlalu banyak mengkonfirmasi keputusan — diatasi dengan mengurangi rapat", "Kecenderungan mengkonfirmasi semua permintaan pelanggan — diatasi dengan filter"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "data_analysis": [
+    {
+      "id": "data_analysis_1",
+      "question": "Dalam analisis data, apa perbedaan antara data kuantitatif dan data kualitatif?",
+      "options": ["Kuantitatif berupa angka dan dapat diukur, kualitatif berupa deskripsi dan kategori", "Kuantitatif selalu lebih akurat daripada kualitatif", "Kuantitatif untuk machine learning, kualitatif untuk manusia", "Tidak ada perbedaan signifikan"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "data_analysis_2",
+      "question": "Anda menemukan outlier ekstrem dalam dataset penjualan e-commerce. Sebelum memutuskan untuk menghapusnya, analisis apa yang harus dilakukan?",
+      "options": ["Langsung menghapusnya karena merusak rata-rata", "Menggantinya dengan nilai rata-rata", "Menyelidiki apakah outlier tersebut adalah data valid (misalnya penjualan Harbolnas) atau kesalahan input", "Mengabaikannya dan melanjutkan analisis"],
+      "correct_index": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "data_analysis_3",
+      "question": "Apa perbedaan antara analisis regresi linear dan regresi logistik dalam konteks pemodelan prediktif, dan kapan masing-masing tepat digunakan?",
+      "options": ["Regresi linear untuk prediksi nilai kontinu (harga), regresi logistik untuk klasifikasi biner (churn/tidak churn)", "Regresi linear untuk data kecil, regresi logistik untuk big data", "Regresi linear selalu lebih akurat", "Regresi logistik hanya untuk data keuangan"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "data_visualization": [
+    {
+      "id": "data_visualization_1",
+      "question": "Jenis grafik apa yang paling tepat untuk menampilkan komposisi atau proporsi dari keseluruhan?",
+      "options": ["Line chart", "Pie chart atau donut chart", "Scatter plot", "Bar chart horizontal"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "data_visualization_2",
+      "question": "Anda perlu memvisualisasikan data penjualan bulanan selama 3 tahun dengan target tahunan. Kombinasi visualisasi apa yang paling informatif?",
+      "options": ["Tiga pie chart terpisah untuk setiap tahun", "Line chart untuk tren bulanan dengan reference line target tahunan", "Scatter plot dengan 1000 titik data", "Heatmap tanpa label angka"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "data_visualization_3",
+      "question": "Mengapa prinsip 'data-ink ratio' yang diperkenalkan Edward Tufte penting dalam visualisasi data, dan apa trade-off-nya?",
+      "options": ["Semakin banyak tinta semakin baik visualisasinya", "Memaksimalkan proporsi tinta yang menampilkan data vs elemen dekoratif — namun perlu diimbangi dengan konteks dan aksesibilitas untuk audiens non-teknis", "Data-ink ratio hanya berlaku untuk grafik cetak, bukan digital", "Prinsip ini mengatakan semua grafik harus hitam putih"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "data_wrangling": [
+    {
+      "id": "data_wrangling_1",
+      "question": "Apa yang dimaksud dengan data wrangling dalam pipeline data?",
+      "options": ["Proses membersihkan dan mentransformasi data mentah menjadi format yang siap analisis", "Proses menyimpan data ke database", "Proses membuat visualisasi data", "Proses menghapus semua data"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "data_wrangling_2",
+      "question": "Anda memiliki dataset dengan kolom 'tanggal' dalam berbagai format (DD/MM/YYYY, MM-DD-YYYY, YYYY.MM.DD). Apa pendekatan terbaik untuk membersihkannya?",
+      "options": ["Menghapus semua baris yang formatnya berbeda", "Membuat fungsi parsing yang mendeteksi format dan mengkonversi ke standar ISO 8601 (YYYY-MM-DD)", "Mengisi semua tanggal dengan nilai default", "Mengabaikan kolom tanggal dan fokus ke kolom lain"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "data_wrangling_3",
+      "question": "Dalam data wrangling, apa perbedaan antara normalisasi dan standardisasi data numerik, dan kapan Anda memilih min-max scaling daripada z-score normalization?",
+      "options": ["Normalisasi (min-max) mengubah data ke rentang [0,1], standardisasi (z-score) mengubah ke mean=0 std=1 — min-max dipilih saat algoritma sensitif terhadap skala dan distribusi tidak normal", "Keduanya sama persis hanya beda nama", "Normalisasi untuk data teks, standardisasi untuk data numerik", "Normalisasi hanya digunakan dalam deep learning"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "database_design": [
+    {
+      "id": "database_design_1",
+      "question": "Apa tujuan utama dari normalisasi database?",
+      "options": ["Meningkatkan kecepatan query secara maksimal", "Mengurangi redundansi data dan mencegah anomali update/insert/delete", "Membuat database terlihat lebih kompleks", "Mengurangi jumlah tabel"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "database_design_2",
+      "question": "Anda merancang database untuk marketplace Indonesia. Satu produk bisa dijual oleh banyak penjual dengan harga berbeda. Bagaimana struktur tabel yang tepat?",
+      "options": ["Satu tabel produk dengan kolom harga", "Tabel produk dan tabel penjual terpisah tanpa relasi", "Tabel produk, tabel penjual, dan tabel pivot 'produk_penjual' dengan kolom harga sebagai atribut relasi", "Membuat tabel terpisah untuk setiap penjual"],
+      "correct_index": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "database_design_3",
+      "question": "Kapan denormalisasi database justru menjadi keputusan desain yang tepat, dan apa risikonya?",
+      "options": ["Denormalisasi tidak pernah menjadi keputusan yang tepat", "Saat performa baca (read) lebih prioritas daripada konsistensi tulis, misalnya untuk sistem analitik — risiko anomali data dan inkonsistensi jika tidak dikelola dengan hati-hati", "Denormalisasi selalu lebih baik untuk semua jenis aplikasi", "Denormalisasi hanya untuk database NoSQL"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "deep_learning": [
+    {
+      "id": "deep_learning_1",
+      "question": "Apa fungsi utama dari fungsi aktivasi (activation function) dalam neural network?",
+      "options": ["Mempercepat proses training", "Memperkenalkan non-linearitas sehingga jaringan bisa mempelajari pola kompleks", "Mengurangi jumlah parameter model", "Menggantikan fungsi loss"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "deep_learning_2",
+      "question": "Anda melatih model CNN untuk klasifikasi gambar produk UMKM Indonesia. Model overfitting — akurasi training 99% tapi validasi 65%. Strategi mana yang PALING tepat?",
+      "options": ["Menambah lebih banyak layer konvolusi", "Menggunakan data augmentation dan dropout regularization", "Meningkatkan learning rate", "Menghapus batch normalization"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "deep_learning_3",
+      "question": "Apa perbedaan fundamental antara Transfer Learning dan Fine-Tuning dalam konteks computer vision, dan kapan sebaiknya tidak menggunakan Fine-Tuning?",
+      "options": ["Transfer learning menggunakan model pre-trained sebagai feature extractor (freeze), fine-tuning melatih ulang beberapa layer — hindari fine-tuning saat dataset kecil karena risiko overfitting tinggi", "Transfer learning dan fine-tuning adalah istilah yang sama", "Transfer learning untuk NLP, fine-tuning untuk computer vision", "Fine-tuning selalu lebih baik daripada transfer learning"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "design_systems": [
+    {
+      "id": "design_systems_1",
+      "question": "Apa komponen paling fundamental dalam sebuah design system?",
+      "options": ["Halaman landing website", "Design tokens (warna, tipografi, spacing) sebagai fondasi yang konsisten", "Animasi dan transisi", "Foto profil tim desain"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "design_systems_2",
+      "question": "Tim produk Anda berkembang dari 1 menjadi 4 squad. Designer di setiap squad mulai membuat komponen sendiri-sendiri yang tidak konsisten. Apa solusi jangka panjang terbaik?",
+      "options": ["Membiarkan setiap squad membuat komponen sendiri", "Membangun design system terpusat dengan kontribusi dari semua squad melalui governance model federasi", "Meminta semua designer menggunakan template yang sama", "Mengganti semua designer dengan satu tim sentral"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "design_systems_3",
+      "question": "Apa perbedaan antara design system yang bersifat 'strict' versus 'loose', dan bagaimana memilih pendekatan yang tepat untuk organisasi di Indonesia?",
+      "options": ["Strict berarti semua komponen dikunci, loose berarti tidak ada aturan", "Strict memaksakan konsistensi penuh (cocok untuk brand tunggal), loose memberi fleksibilitas dengan panduan (cocok untuk konglomerasi multi-produk seperti GoTo)", "Strict untuk startup, loose untuk enterprise", "Indonesia selalu membutuhkan design system strict"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "docker": [
+    {
+      "id": "docker_1",
+      "question": "Apa perbedaan antara Docker image dan Docker container?",
+      "options": ["Image adalah template/blueprint statis, container adalah instance berjalan dari image", "Keduanya adalah istilah yang sama", "Image untuk Linux, container untuk Windows", "Image lebih kecil dari container"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "docker_2",
+      "question": "Anda menjalankan beberapa container yang perlu saling berkomunikasi. Container A perlu mengakses API di Container B. Apa pendekatan networking yang tepat di Docker?",
+      "options": ["Menggunakan IP address container langsung (172.17.x.x)", "Membuat custom bridge network dan menggunakan nama container sebagai hostname", "Mengekspos semua port ke host", "Menjalankan semua service dalam satu container"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "docker_3",
+      "question": "Apa perbedaan mendasar antara Docker volume dan bind mount dalam hal siklus hidup data dan portabilitas antar environment?",
+      "options": ["Volume dikelola Docker dan portabel antar environment, bind mount tergantung path absolut host — lebih rentan terhadap perbedaan environment", "Bind mount lebih aman daripada volume", "Volume hanya untuk production, bind mount hanya untuk development", "Tidak ada perbedaan signifikan"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "email_marketing": [
+    {
+      "id": "email_marketing_1",
+      "question": "Apa metrik paling penting untuk mengukur keberhasilan kampanye email marketing?",
+      "options": ["Jumlah email yang dikirim", "Open rate, click-through rate (CTR), dan conversion rate", "Ukuran file email", "Waktu pengiriman email"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "email_marketing_2",
+      "question": "Anda mengelola email marketing untuk e-commerce Indonesia. Segmentasi pelanggan seperti apa yang paling efektif untuk kampanye re-engagement?",
+      "options": ["Mengirim email yang sama ke semua pelanggan", "Segmentasi berdasarkan perilaku: pelanggan yang tidak membeli dalam 30/60/90 hari terakhir dengan penawaran yang semakin agresif", "Segmentasi berdasarkan abjad nama pelanggan", "Hanya mengirim email ke pelanggan baru"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "email_marketing_3",
+      "question": "Bagaimana mekanisme 'email warm-up' bekerja dan mengapa penting untuk domain pengirim baru agar tidak masuk folder spam?",
+      "options": ["Mengirim email secara bertahap dengan volume meningkat untuk membangun reputasi domain di mata ISP", "Menghapus semua email lama sebelum kampanye", "Menggunakan template email yang lebih menarik", "Mengirim email hanya pada jam kerja"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "empathy": [
+    {
+      "id": "empathy_1",
+      "question": "Apa perbedaan antara empati dan simpati dalam konteks profesional?",
+      "options": ["Empati berarti memahami dan merasakan perspektif orang lain, simpati berarti merasa kasihan dari jarak jauh", "Keduanya sama persis", "Empati hanya untuk psikolog, simpati untuk manajer", "Empati adalah kelemahan dalam bisnis"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "empathy_2",
+      "question": "Seorang anggota tim Anda terus-menerus terlambat menyelesaikan tugas. Alih-alih langsung menegur, bagaimana pendekatan empatik yang tepat?",
+      "options": ["Langsung memberikan surat peringatan", "Mengajak bicara secara privat untuk memahami kendala yang dihadapi, lalu bersama-sama mencari solusi", "Mengabaikannya karena tidak ingin konflik", "Memindahkan tugasnya ke anggota tim lain tanpa diskusi"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "empathy_3",
+      "question": "Bagaimana empati berkontribusi pada inovasi produk, dan apa contoh konkret dari produk teknologi Indonesia yang berhasil karena pendekatan empatik?",
+      "options": ["Empati tidak relevan dengan inovasi produk", "Empati membantu memahami pain point pengguna yang tersembunyi — contoh: Gojek memahami kebutuhan transportasi terjangkau dan penghasilan tambahan, menciptakan solusi dua sisi", "Empati hanya berguna untuk customer service", "Inovasi produk hanya butuh teknologi canggih, bukan empati"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "excel": [
+    {
+      "id": "excel_1",
+      "question": "Apa fungsi dari VLOOKUP di Microsoft Excel?",
+      "options": ["Menghitung rata-rata data", "Mencari nilai dalam kolom pertama suatu range dan mengembalikan nilai dari kolom lain di baris yang sama", "Membuat grafik otomatis", "Menghapus data duplikat"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "excel_2",
+      "question": "Anda memiliki data penjualan 50.000 baris. Formula VLOOKUP terasa lambat. Alternatif apa yang lebih efisien untuk lookup data dalam jumlah besar?",
+      "options": ["Menggunakan VLOOKUP dengan range yang lebih kecil", "Menggunakan INDEX-MATCH atau XLOOKUP yang lebih efisien", "Menyalin data secara manual", "Menggunakan HLOOKUP"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "excel_3",
+      "question": "Apa perbedaan fungsional antara PivotTable dan Power Query dalam Excel, dan dalam skenario apa Anda memilih Power Query daripada PivotTable?",
+      "options": ["PivotTable untuk agregasi dan summarization data yang sudah bersih, Power Query untuk ETL (extract-transform-load) data dari berbagai sumber — pilih Power Query saat data perlu dibersihkan dan ditransformasi dulu sebelum analisis", "Keduanya adalah fitur yang sama", "PivotTable untuk data kecil, Power Query untuk data besar", "Power Query hanya tersedia di Excel versi berbayar"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "figma": [
+    {
+      "id": "figma_1",
+      "question": "Apa keunggulan utama Figma dibandingkan tools desain tradisional seperti Adobe Photoshop untuk UI/UX design?",
+      "options": ["Figma memiliki filter foto yang lebih baik", "Figma adalah tools kolaboratif berbasis cloud yang memungkinkan multiple designer bekerja secara real-time", "Figma lebih murah karena gratis sepenuhnya", "Figma hanya untuk desain logo"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "figma_2",
+      "question": "Anda perlu membuat komponen tombol yang memiliki beberapa varian (primary, secondary, disabled) dan ukuran (small, medium, large). Apa fitur Figma yang paling tepat?",
+      "options": ["Membuat frame terpisah untuk setiap varian", "Menggunakan component variants dan component properties", "Menduplikasi komponen secara manual", "Menggunakan plugin pihak ketiga"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "figma_3",
+      "question": "Apa perbedaan antara Figma constraints dan auto layout dalam membangun layout responsif, dan kapan menggunakan keduanya secara bersamaan?",
+      "options": ["Constraints mengatur posisi relatif terhadap frame parent, auto layout mengatur flow dan spacing antar child — gunakan keduanya saat membutuhkan komponen yang responsif terhadap konten DAN ukuran parent", "Constraints dan auto layout tidak bisa digunakan bersamaan", "Constraints hanya untuk mobile, auto layout untuk desktop", "Keduanya adalah fitur yang sama"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "firebase": [
+    {
+      "id": "firebase_1",
+      "question": "Apa layanan Firebase yang menyediakan database real-time NoSQL?",
+      "options": ["Firebase Hosting", "Cloud Firestore dan Realtime Database", "Firebase Authentication", "Firebase Analytics"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "firebase_2",
+      "question": "Anda membangun aplikasi chat menggunakan Firestore. Bagaimana Anda mendesain struktur data untuk menampilkan daftar percakapan terbaru secara efisien?",
+      "options": ["Menyimpan semua pesan dalam satu dokumen", "Membuat subkoleksi messages di setiap dokumen chat, dengan query berurut berdasarkan timestamp", "Menggunakan Realtime Database saja tanpa Firestore", "Menyimpan pesan di Firebase Storage"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "firebase_3",
+      "question": "Apa trade-off performa dan biaya antara menggunakan Firestore composite indexes versus collection group queries untuk query lintas subkoleksi?",
+      "options": ["Composite indexes untuk query spesifik yang sering dijalankan (lebih cepat, tapi butuh index manual), collection group untuk query ad-hoc lintas subkoleksi (fleksibel tapi bisa lebih lambat dan mahal)", "Composite indexes selalu lebih lambat", "Collection group queries gratis tanpa batasan", "Keduanya identik"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "flutter": [
+    {
+      "id": "flutter_1",
+      "question": "Apa bahasa pemrograman yang digunakan dalam framework Flutter?",
+      "options": ["Java", "Kotlin", "Dart", "Swift"],
+      "correct_index": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "flutter_2",
+      "question": "Anda membangun aplikasi yang perlu menampilkan daftar 10.000 item. Widget Flutter apa yang paling tepat untuk performa optimal?",
+      "options": ["Column dengan children 10.000 widget", "ListView.builder yang hanya merender item yang terlihat di layar", "SingleChildScrollView dengan Column", "Stack dengan positioning manual"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "flutter_3",
+      "question": "Apa perbedaan antara StatefulWidget dan penggunaan state management seperti Provider atau Riverpod, dan kapan sebaiknya beralih dari setState ke state management eksternal?",
+      "options": ["StatefulWidget hanya untuk widget kecil, Provider untuk aplikasi besar", "StatefulWidget mengelola state lokal widget, Provider/Riverpod untuk state global yang dibagikan antar widget — beralih saat state perlu diakses oleh widget yang jauh dalam widget tree", "Tidak ada perbedaan, hanya preferensi sintaks", "Provider menggantikan StatefulWidget sepenuhnya"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "git": [
+    {
+      "id": "git_1",
+      "question": "Apa perintah Git untuk menyimpan perubahan sementara tanpa commit?",
+      "options": ["git save", "git stash", "git temporary", "git hold"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "git_2",
+      "question": "Anda tidak sengaja commit ke branch main dan belum push. Bagaimana cara membatalkan commit tersebut tapi tetap menyimpan perubahan di working directory?",
+      "options": ["git reset --hard HEAD~1", "git reset --soft HEAD~1", "git revert HEAD", "git commit --undo"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "git_3",
+      "question": "Apa perbedaan antara 'git merge' dan 'git rebase' dalam mengintegrasikan perubahan, dan mengapa rebase bisa berbahaya jika digunakan pada branch yang sudah di-push?",
+      "options": ["Merge membuat commit baru, rebase menulis ulang history — rebase berbahaya di branch publik karena mengubah commit hash sehingga konflik dengan history rekan tim", "Merge dan rebase sama persis", "Rebase selalu lebih aman daripada merge", "Rebase hanya untuk branch lokal yang belum di-push"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "google_analytics": [
+    {
+      "id": "google_analytics_1",
+      "question": "Apa perbedaan antara metrik 'Users' dan 'Sessions' di Google Analytics?",
+      "options": ["Users menghitung pengunjung unik, Sessions menghitung kunjungan termasuk kunjungan berulang", "Keduanya menghitung hal yang sama", "Users untuk mobile, Sessions untuk desktop", "Users adalah data real-time, Sessions adalah data historis"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "google_analytics_2",
+      "question": "Anda melihat bounce rate website e-commerce Indonesia sangat tinggi (85%) di halaman produk. Analisis apa yang perlu dilakukan sebelum mengambil tindakan?",
+      "options": ["Langsung mendesain ulang seluruh website", "Menganalisis sumber trafik, behavior flow, dan segmentasi pengguna untuk memahami apakah bounce rate tinggi memang masalah atau sesuai ekspektasi (misalnya pengguna membaca informasi lalu keluar)", "Mengabaikan bounce rate karena bukan metrik penting", "Menambahkan pop-up agresif untuk menahan pengguna"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "google_analytics_3",
+      "question": "Bagaimana perbedaan fundamental antara Google Analytics Universal Analytics (UA) dan GA4 dalam model data dan dampaknya terhadap analisis cross-platform?",
+      "options": ["GA4 menggunakan model event-based (bukan session-based), memungkinkan tracking yang lebih fleksibel lintas web dan app dalam satu property", "GA4 hanya untuk aplikasi mobile", "UA lebih modern daripada GA4", "GA4 tidak mendukung e-commerce tracking"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "html_css": [
+    {
+      "id": "html_css_1",
+      "question": "Apa perbedaan antara elemen HTML block-level dan inline?",
+      "options": ["Block-level memenuhi lebar penuh parent, inline hanya selebar kontennya", "Tidak ada perbedaan", "Block-level untuk teks, inline untuk gambar", "Block-level hanya di HTML5, inline di HTML4"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "html_css_2",
+      "question": "Anda perlu membuat layout tiga kolom yang responsif: sidebar kiri (200px), konten utama (fleksibel), sidebar kanan (300px). Apa pendekatan CSS modern yang paling tepat?",
+      "options": ["Menggunakan <table> untuk layout", "Menggunakan CSS Grid: grid-template-columns: 200px 1fr 300px", "Menggunakan float dengan clearfix", "Menggunakan position: absolute untuk setiap kolom"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "html_css_3",
+      "question": "Apa perbedaan antara 'display: none', 'visibility: hidden', dan 'opacity: 0' dalam CSS, serta dampaknya terhadap layout, event handling, dan aksesibilitas?",
+      "options": ["display:none menghapus dari flow layout dan tidak menerima event, visibility:hidden tetap mengambil ruang tapi invisible dan tidak menerima event, opacity:0 tetap mengambil ruang dan menerima event — penting untuk animasi dan screen reader", "Ketiganya sama persis", "display:none hanya untuk mobile, yang lain untuk desktop", "opacity:0 adalah satu-satunya yang mendukung animasi"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "javascript": [
+    {
+      "id": "javascript_1",
+      "question": "Apa perbedaan antara 'let', 'const', dan 'var' dalam deklarasi variabel JavaScript?",
+      "options": ["let dan const memiliki block scope, var memiliki function scope", "Ketiganya sama persis", "let untuk number, const untuk string, var untuk boolean", "let dan const hanya untuk ES6, var untuk ES5"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "javascript_2",
+      "question": "Apa output dari kode berikut: console.log(typeof null)?",
+      "options": ["'null'", "'object'", "'undefined'", "'boolean'"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "javascript_3",
+      "question": "Bagaimana cara kerja Event Loop di JavaScript, dan mengapa callback dari setTimeout(fn, 0) tidak langsung dieksekusi meskipun timeout-nya 0?",
+      "options": ["setTimeout tidak berfungsi dengan 0", "Event Loop mengeksekusi callback setTimeout hanya setelah call stack kosong — meskipun timer 0, callback masuk ke task queue dan menunggu giliran", "JavaScript multi-threaded jadi langsung dieksekusi", "setTimeout hanya berfungsi di browser, bukan Node.js"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "komunikasi": [
+    {
+      "id": "komunikasi_1",
+      "question": "Apa elemen kunci dalam komunikasi efektif di lingkungan kerja?",
+      "options": ["Berbicara secepat mungkin", "Kejelasan pesan, mendengarkan aktif, dan umpan balik yang konstruktif", "Menggunakan istilah teknis sebanyak mungkin", "Menghindari kontak mata"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "komunikasi_2",
+      "question": "Anda harus menyampaikan berita buruk kepada klien bahwa proyek akan terlambat 2 minggu. Bagaimana pendekatan komunikasi yang paling profesional?",
+      "options": ["Menunda komunikasi hingga ada solusi", "Mengirim email singkat tanpa penjelasan", "Menyampaikan informasi lebih awal dengan transparansi, menyebutkan penyebab, dampak, dan rencana mitigasi yang sudah disiapkan", "Menyalahkan tim teknis atas keterlambatan"],
+      "correct_index": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "komunikasi_3",
+      "question": "Dalam konteks komunikasi lintas budaya di perusahaan multinasional, apa yang dimaksud dengan 'high-context' vs 'low-context' communication, dan bagaimana pengaruhnya terhadap negosiasi bisnis?",
+      "options": ["High-context mengandalkan konteks dan hubungan (Indonesia, Jepang), low-context mengandalkan kata-kata eksplisit (Jerman, AS) — kesalahpahaman terjadi jika tidak memahami perbedaan ini", "High-context berarti berkomunikasi dengan suara keras, low-context berarti berbisik", "High-context hanya untuk komunikasi tertulis, low-context untuk lisan", "Konsep ini tidak relevan di era digital"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "kotlin": [
+    {
+      "id": "kotlin_1",
+      "question": "Apa fitur utama Kotlin yang membedakannya dari Java?",
+      "options": ["Kotlin tidak mendukung OOP", "Null safety, extension functions, data classes, dan coroutines", "Kotlin hanya untuk pengembangan iOS", "Kotlin tidak bisa berjalan di JVM"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kotlin_2",
+      "question": "Apa perbedaan antara 'val' dan 'var' di Kotlin, dan kapan menggunakan 'val' dengan mutable collection?",
+      "options": ["val untuk variabel read-only (referensi immutable), var untuk mutable — val dengan mutable collection berarti referensi tetap tapi isi collection bisa berubah", "val dan var sama saja", "val hanya untuk Android, var untuk backend", "val tidak bisa digunakan dengan collection"],
+      "correct_index": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "kotlin_3",
+      "question": "Bagaimana mekanisme 'structured concurrency' dalam Kotlin Coroutines memastikan tidak ada coroutine yang bocor (leak), dan apa perannya supervisorScope?",
+      "options": ["Coroutines tidak pernah bocor secara otomatis", "Structured concurrency mengikat lifecycle coroutine ke scope parent — jika parent dibatalkan, semua child dibatalkan. supervisorScope mencegah pembatalan satu child mempengaruhi sibling lainnya", "Coroutines selalu berjalan di thread terpisah", "Structured concurrency hanya berlaku untuk Android"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "kubernetes": [
+    {
+      "id": "kubernetes_1",
+      "question": "Apa unit deployment terkecil di Kubernetes?",
+      "options": ["Container", "Pod", "Node", "Cluster"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kubernetes_2",
+      "question": "Anda memiliki aplikasi yang perlu menyimpan data persisten. Pod di-reschedule ke node lain dan data hilang. Komponen Kubernetes apa yang diperlukan?",
+      "options": ["ConfigMap", "PersistentVolume dan PersistentVolumeClaim", "Secret", "Service"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "kubernetes_3",
+      "question": "Apa perbedaan antara Deployment dan StatefulSet dalam Kubernetes, dan kapan StatefulSet menjadi pilihan yang tepat?",
+      "options": ["Deployment untuk stateless apps dengan pod identik dan bisa diganti, StatefulSet untuk stateful apps yang butuh identitas jaringan stabil dan persistent storage per pod (database, Kafka, Zookeeper)", "StatefulSet adalah versi lama Deployment", "Deployment hanya untuk cloud, StatefulSet untuk on-premise", "Keduanya sama, hanya beda nama"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "leadership": [
+    {
+      "id": "leadership_1",
+      "question": "Apa perbedaan utama antara seorang manajer dan seorang pemimpin (leader)?",
+      "options": ["Manajer fokus pada proses dan kontrol, pemimpin fokus pada visi dan inspirasi", "Tidak ada perbedaan", "Manajer lebih penting daripada pemimpin", "Pemimpin hanya ada di level C-level"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "leadership_2",
+      "question": "Tim Anda mengalami konflik internal yang mempengaruhi produktivitas. Dua anggota kunci tidak mau bekerja sama. Bagaimana pendekatan kepemimpinan yang tepat?",
+      "options": ["Memecat kedua anggota tim", "Memfasilitasi mediasi, memahami akar masalah, dan membantu mereka menemukan common ground serta tujuan bersama", "Mengabaikan konflik dengan harapan akan selesai sendiri", "Memilih salah satu dan memindahkan yang lain ke tim berbeda"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "leadership_3",
+      "question": "Jelaskan perbedaan antara situational leadership dan servant leadership, serta situasi di mana servant leadership justru kontraproduktif untuk organisasi.",
+      "options": ["Situational leadership menyesuaikan gaya kepemimpinan berdasarkan kesiapan tim, servant leadership mengutamakan melayani kebutuhan tim — servant leadership kontraproduktif saat krisis yang membutuhkan keputusan cepat dan direktif", "Keduanya adalah gaya kepemimpinan yang sama", "Situational leadership selalu lebih baik", "Servant leadership hanya untuk organisasi nonprofit"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "linux": [
+    {
+      "id": "linux_1",
+      "question": "Apa perintah Linux untuk mengubah permission file menjadi read-write untuk owner dan read-only untuk group dan others?",
+      "options": ["chmod 777 file", "chmod 644 file", "chmod 755 file", "chmod 600 file"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "linux_2",
+      "question": "Proses di server Linux menggunakan 100% CPU. Anda perlu mengidentifikasi proses tersebut dan menghentikannya dengan aman. Urutan perintah apa yang tepat?",
+      "options": ["ls -la", "top atau htop untuk identifikasi, catat PID, lalu kill -15 PID (SIGTERM) dulu, jika tidak berhenti gunakan kill -9 PID (SIGKILL)", "reboot server", "rm -rf /"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "linux_3",
+      "question": "Apa perbedaan antara hard link dan symbolic link (symlink) di Linux, dan mengapa hard link tidak bisa melintasi filesystem?",
+      "options": ["Hard link menunjuk langsung ke inode data, symlink menunjuk ke path — hard link tidak bisa lintas filesystem karena inode unik per filesystem", "Hard link dan symlink identik", "Hard link hanya untuk file, symlink hanya untuk direktori", "Symlink lebih cepat daripada hard link"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "machine_learning": [
+    {
+      "id": "machine_learning_1",
+      "question": "Apa perbedaan antara supervised learning dan unsupervised learning?",
+      "options": ["Supervised menggunakan data berlabel, unsupervised menggunakan data tanpa label", "Supervised untuk gambar, unsupervised untuk teks", "Supervised lebih cepat dari unsupervised", "Unsupervised tidak memerlukan komputer"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "machine_learning_2",
+      "question": "Anda membangun model klasifikasi untuk deteksi penipuan transaksi di e-commerce Indonesia. Dataset tidak seimbang: 99% transaksi normal, 1% penipuan. Metrik apa yang PALING tepat?",
+      "options": ["Accuracy — karena mudah dipahami", "Precision, Recall, dan F1-Score — karena accuracy akan menyesatkan (model bisa mencapai 99% accuracy hanya dengan menebak 'normal' semua)", "Mean Absolute Error", "Semua metrik sama baiknya"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "machine_learning_3",
+      "question": "Apa perbedaan konseptual antara bias dan variance dalam machine learning, dan bagaimana hubungan trade-off ini mempengaruhi pemilihan model?",
+      "options": ["Bias adalah kesalahan dari asumsi yang terlalu sederhana (underfitting), variance adalah kesalahan dari sensitivitas berlebih terhadap data training (overfitting) — model kompleks mengurangi bias tapi meningkatkan variance", "Bias dan variance selalu berbanding lurus", "Bias untuk regresi, variance untuk klasifikasi", "Bias selalu buruk, variance selalu baik"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "mobile_ui": [
+    {
+      "id": "mobile_ui_1",
+      "question": "Apa prinsip utama dalam mendesain UI mobile yang user-friendly?",
+      "options": ["Membuat semua elemen sekecil mungkin", "Mengikuti platform guidelines (Material Design/HIG), touch target minimal 44-48px, dan thumb-friendly zone", "Menggunakan warna sebanyak mungkin", "Menyalin desain aplikasi lain"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "mobile_ui_2",
+      "question": "Anda mendesain aplikasi mobile untuk pengguna di Indonesia dengan berbagai ukuran layar Android. Apa pendekatan desain yang paling inklusif?",
+      "options": ["Mendesain hanya untuk layar flagship Samsung terbaru", "Menggunakan responsive layout dengan constraint-based design dan menguji di perangkat low-end yang umum di Indonesia (layar kecil, RAM terbatas)", "Membuat dua aplikasi terpisah untuk layar kecil dan besar", "Hanya mendesain untuk iOS karena lebih seragam"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "mobile_ui_3",
+      "question": "Apa perbedaan pendekatan antara 'bottom navigation' dan 'hamburger menu' dalam aplikasi mobile, serta dampaknya terhadap discoverability dan engagement?",
+      "options": ["Bottom navigation meningkatkan discoverability fitur utama dan engagement karena selalu terlihat, hamburger menu menyembunyikan navigasi dan menurunkan discoverability — cocok untuk fitur sekunder", "Hamburger menu selalu lebih baik di mobile", "Bottom navigation hanya untuk iOS", "Keduanya harus digunakan bersamaan di setiap aplikasi"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "monitoring": [
+    {
+      "id": "monitoring_1",
+      "question": "Apa tiga pilar utama observability dalam sistem terdistribusi?",
+      "options": ["CPU, Memory, Disk", "Logs, Metrics, Traces", "Alert, Dashboard, Report", "Input, Process, Output"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "monitoring_2",
+      "question": "Anda menerima alert bahwa latency API meningkat drastis. Metrics menunjukkan CPU normal, tapi database connection pool penuh. Apa langkah investigasi selanjutnya?",
+      "options": ["Langsung restart database", "Menganalisis slow query log, connection pattern, dan trace untuk menemukan root cause sebelum mengambil tindakan", "Menambah CPU server", "Mengabaikan alert karena CPU normal"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "monitoring_3",
+      "question": "Apa perbedaan antara monitoring berbasis 'blackbox' dan 'whitebox', dan mengapa keduanya diperlukan dalam strategi monitoring production?",
+      "options": ["Blackbox memonitor dari perspektif eksternal (end-user), whitebox dari internal sistem — blackbox mendeteksi dampak ke pengguna, whitebox membantu diagnosa root cause", "Blackbox untuk siang hari, whitebox untuk malam hari", "Blackbox hanya untuk API, whitebox untuk database", "Whitebox sudah cukup, blackbox tidak diperlukan"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "pandas": [
+    {
+      "id": "pandas_1",
+      "question": "Apa struktur data utama dalam library Pandas untuk data tabular dua dimensi?",
+      "options": ["Array", "List", "DataFrame", "Dictionary"],
+      "correct_index": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "pandas_2",
+      "question": "Anda memiliki DataFrame dengan 1 juta baris dan perlu filter data yang kompleks. Mana yang lebih efisien antara menggunakan .query() dan boolean indexing biasa?",
+      "options": [".query() lebih lambat karena parsing string", "Boolean indexing biasa lebih lambat karena iterasi Python", ".query() menggunakan numexpr untuk evaluasi yang dioptimalkan, lebih cepat untuk DataFrame besar", "Keduanya identik"],
+      "correct_index": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "pandas_3",
+      "question": "Apa perbedaan antara .apply(), .map(), dan .applymap() di Pandas, dan kapan menggunakan masing-masing?",
+      "options": [".apply() untuk Series dan DataFrame, .map() hanya untuk Series (element-wise mapping), .applymap() untuk DataFrame (element-wise) — pilih .map() untuk mapping sederhana di Series, .apply() untuk operasi baris/kolom", "Ketiganya identik", ".apply() hanya untuk aggregation, .map() untuk transformasi, .applymap() untuk filtering", "Semua fungsi hanya bisa digunakan untuk Series"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "problem_solving": [
+    {
+      "id": "problem_solving_1",
+      "question": "Apa langkah pertama yang paling tepat dalam pendekatan problem solving yang sistematis?",
+      "options": ["Langsung mencari solusi", "Mendefinisikan masalah secara jelas dan spesifik", "Menyalahkan orang lain", "Mengabaikan masalah"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "problem_solving_2",
+      "question": "Tim Anda menghadapi masalah kompleks dengan banyak variabel yang saling terkait. Teknik problem solving mana yang paling tepat untuk mengidentifikasi akar penyebab?",
+      "options": ["Menebak solusi berdasarkan pengalaman pribadi", "Menggunakan Root Cause Analysis dengan teknik 5 Whys atau Fishbone Diagram (Ishikawa)", "Langsung mengimplementasikan solusi termudah", "Memilih solusi dari internet tanpa analisis"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "problem_solving_3",
+      "question": "Apa perbedaan antara 'first principles thinking' dan 'analogical thinking' dalam problem solving, dan kapan first principles lebih unggul?",
+      "options": ["First principles memecah masalah ke elemen fundamental dan membangun solusi dari nol, analogical thinking menggunakan solusi dari domain serupa — first principles unggul untuk inovasi disruptif yang tidak ada presedennya", "Keduanya adalah istilah yang sama", "First principles hanya untuk Elon Musk", "Analogical thinking selalu lebih baik"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "process_mapping": [
+    {
+      "id": "process_mapping_1",
+      "question": "Apa tujuan utama dari process mapping dalam analisis bisnis?",
+      "options": ["Membuat dokumen yang indah", "Memvisualisasikan alur kerja untuk mengidentifikasi bottleneck, inefisiensi, dan peluang perbaikan", "Mengganti semua proses manual", "Menambah kompleksitas proses"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "process_mapping_2",
+      "question": "Anda memetakan proses onboarding pelanggan di perusahaan fintech dan menemukan bahwa proses KYC memakan waktu 3 hari. Teknik analisis apa yang digunakan untuk mengidentifikasi aktivitas yang tidak bernilai tambah?",
+      "options": ["Value Stream Mapping (VSM) untuk membedakan value-added vs non-value-added activities", "Hanya melihat waktu total tanpa analisis", "Menghapus semua proses KYC", "Menyalin proses dari kompetitor"],
+      "correct_index": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "process_mapping_3",
+      "question": "Apa perbedaan antara Business Process Model and Notation (BPMN) dan flowchart tradisional dalam memodelkan proses bisnis yang kompleks?",
+      "options": ["BPMN memiliki notasi standar yang lebih kaya (event, gateway, swimlane, message flow) untuk proses kompleks, flowchart lebih sederhana tapi kurang ekspresif untuk exception handling dan parallel processing", "Flowchart selalu lebih baik dari BPMN", "BPMN hanya untuk bank, flowchart untuk startup", "Keduanya identik hanya beda software"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "product_strategy": [
+    {
+      "id": "product_strategy_1",
+      "question": "Apa komponen utama dalam strategi produk yang efektif?",
+      "options": ["Daftar fitur yang panjang", "Visi produk, target pasar, diferensiasi, dan rencana eksekusi", "Budget marketing yang besar", "Jumlah engineer dalam tim"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "product_strategy_2",
+      "question": "Anda adalah Product Manager untuk aplikasi edutech di Indonesia. Kompetitor besar baru saja masuk pasar. Strategi produk apa yang paling tepat untuk bertahan?",
+      "options": ["Menurunkan harga ke titik terendah", "Fokus pada diferensiasi dan keunggulan lokal yang sulit ditiru — misalnya konten kurikulum nasional dan integrasi dengan ekosistem pendidikan Indonesia", "Menyalin semua fitur kompetitor", "Menghentikan produk dan beralih bisnis"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "product_strategy_3",
+      "question": "Apa perbedaan antara product-led growth (PLG) dan sales-led growth (SLG), dan bagaimana menentukan model yang tepat untuk produk SaaS di pasar Indonesia?",
+      "options": ["PLG mengandalkan produk sebagai akuisisi (freemium/trial), SLG mengandalkan tim sales — PLG cocok untuk produk self-serve dengan low friction, SLG untuk enterprise B2B di Indonesia yang butuh relationship building", "PLG selalu lebih baik untuk Indonesia", "SLG tidak relevan di era digital", "PLG hanya untuk startup unicorn"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "prototyping": [
+    {
+      "id": "prototyping_1",
+      "question": "Apa perbedaan utama antara low-fidelity dan high-fidelity prototype?",
+      "options": ["Low-fidelity cepat dan kasar (sketsa/wireframe), high-fidelity detail dan interaktif (mendekati produk final)", "Low-fidelity lebih mahal dibuat", "High-fidelity tidak perlu diuji", "Low-fidelity hanya untuk mobile apps"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "prototyping_2",
+      "question": "Anda sedang mengembangkan fitur baru untuk aplikasi fintech. Stakeholder meminta high-fidelity prototype lengkap. Mengapa Anda mungkin menyarankan untuk mulai dengan low-fidelity dulu?",
+      "options": ["Karena low-fidelity lebih murah", "Karena low-fidelity memungkinkan iterasi cepat pada konsep dan flow sebelum investasi detail visual — mengurangi risiko membangun fitur yang salah", "Karena stakeholder tidak mengerti high-fidelity", "Karena low-fidelity terlihat lebih profesional"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "prototyping_3",
+      "question": "Dalam konteks Design Thinking, bagaimana prototype berfungsi sebagai alat belajar dan bukan sekadar validasi solusi akhir?",
+      "options": ["Prototype hanya untuk menunjukkan hasil akhir ke stakeholder", "Prototype adalah 'alat berpikir' — setiap iterasi prototype adalah hipotesis yang diuji, kegagalan di tahap prototype memberikan pembelajaran yang lebih murah daripada kegagalan di production", "Prototype harus selalu sempurna sebelum diuji", "Prototype hanya digunakan di fase awal, tidak di fase selanjutnya"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "python": [
+    {
+      "id": "python_1",
+      "question": "Apa perbedaan antara list dan tuple di Python?",
+      "options": ["List mutable (bisa diubah), tuple immutable (tidak bisa diubah)", "Tidak ada perbedaan", "List untuk number, tuple untuk string", "List lebih lambat dari tuple"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "python_2",
+      "question": "Anda memproses data besar dan menggunakan list comprehension. Kapan list comprehension lebih tepat daripada map() dan sebaliknya?",
+      "options": ["List comprehension selalu lebih cepat", "List comprehension lebih readable untuk transformasi sederhana, map() lebih efisien saat fungsinya sudah ada (C-level) dan untuk pipeline kompleks dengan multiple transformations", "map() sudah deprecated di Python 3", "Keduanya tidak bisa digunakan bersamaan"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "python_3",
+      "question": "Apa yang dimaksud dengan GIL (Global Interpreter Lock) di CPython, dan bagaimana dampaknya terhadap multithreading vs multiprocessing untuk tugas CPU-bound?",
+      "options": ["GIL membatasi satu thread mengeksekusi Python bytecode dalam satu waktu — untuk CPU-bound tasks, multiprocessing lebih baik karena bypass GIL, multithreading lebih cocok untuk I/O-bound tasks", "GIL tidak mempengaruhi performa Python", "GIL hanya ada di Python 2", "Multithreading selalu lebih cepat dari multiprocessing"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "react": [
+    {
+      "id": "react_1",
+      "question": "Apa hook React yang digunakan untuk mengelola state di functional component?",
+      "options": ["useEffect", "useState", "useContext", "useReducer"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "react_2",
+      "question": "Komponen React Anda melakukan re-render berlebihan. Setelah investigasi, props yang diterima selalu memiliki referensi objek baru setiap render meskipun nilainya sama. Apa solusi yang tepat?",
+      "options": ["Membungkus komponen dengan React.memo dan menggunakan useMemo/useCallback untuk props yang berupa objek/fungsi", "Menambah lebih banyak state", "Menggunakan shouldComponentUpdate di functional component", "Mengabaikan re-render karena React sudah optimal"],
+      "correct_index": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "react_3",
+      "question": "Apa perbedaan antara useEffect dengan dependency array kosong [] dan useEffect tanpa dependency array sama sekali, serta implikasinya terhadap lifecycle komponen?",
+      "options": ["useEffect dengan [] hanya berjalan sekali saat mount (seperti componentDidMount), useEffect tanpa dependency array berjalan setiap render — yang kedua jarang digunakan dan sering menyebabkan infinite loop jika di dalamnya ada setState", "Keduanya berperilaku sama", "[] membuat useEffect berjalan setiap render", "Tanpa dependency array justru lebih aman"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "requirements_gathering": [
+    {
+      "id": "requirements_gathering_1",
+      "question": "Apa teknik yang paling umum digunakan untuk mengumpulkan kebutuhan dari stakeholder?",
+      "options": ["Menebak kebutuhan stakeholder", "Wawancara, kuesioner, observasi, dan workshop", "Membaca pikiran stakeholder", "Langsung coding tanpa analisis"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "requirements_gathering_2",
+      "question": "Stakeholder memberikan requirements yang sangat umum: 'Saya ingin sistem yang user-friendly'. Bagaimana Anda mengonversinya menjadi requirements yang terukur?",
+      "options": ["Menerima begitu saja", "Menggali lebih dalam dengan teknik SMART: 'Apa definisi user-friendly menurut Anda? Bisakah Anda beri contoh? Bagaimana kita mengukur keberhasilannya?'", "Mengabaikan karena terlalu subjektif", "Mencari definisi user-friendly di internet"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "requirements_gathering_3",
+      "question": "Apa perbedaan antara functional requirements dan non-functional requirements, dan mengapa non-functional requirements sering diabaikan padahal kritis?",
+      "options": ["Functional = apa yang sistem lakukan (fitur), non-functional = bagaimana sistem melakukannya (performa, keamanan, skalabilitas) — NFR sering diabaikan karena tidak terlihat langsung tapi menjadi penyebab kegagalan sistem di production", "Keduanya sama saja", "Non-functional hanya tentang warna UI", "Functional requirements lebih penting dari non-functional"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "responsive_design": [
+    {
+      "id": "responsive_design_1",
+      "question": "Apa fungsi utama dari CSS media queries dalam responsive design?",
+      "options": ["Membuat animasi", "Menerapkan gaya CSS yang berbeda berdasarkan karakteristik perangkat (lebar layar, orientasi, resolusi)", "Mengganti HTML", "Mempercepat loading website"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "responsive_design_2",
+      "question": "Anda menerapkan responsive design dengan pendekatan mobile-first. Apa artinya dan mengapa pendekatan ini direkomendasikan?",
+      "options": ["Mendesain untuk mobile terlebih dahulu lalu memperluas ke desktop — memastikan konten esensial terlihat di layar kecil dan performa optimal di perangkat low-end", "Hanya mendesain untuk mobile", "Mendesain untuk desktop dulu lalu menyusutkan ke mobile", "Membuat aplikasi terpisah untuk mobile"],
+      "correct_index": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "responsive_design_3",
+      "question": "Apa perbedaan antara responsive design, adaptive design, dan fluid design? Kapan masing-masing pendekatan tepat digunakan?",
+      "options": ["Responsive = satu layout fleksibel fluid + media queries, Adaptive = beberapa layout tetap untuk breakpoint spesifik, Fluid = menggunakan persentase tanpa breakpoint. Responsive paling fleksibel, Adaptive untuk kontrol presisi per device, Fluid untuk konten teks-heavy", "Ketiganya identik", "Responsive hanya untuk mobile, lainnya untuk desktop", "Fluid design adalah istilah lama yang sudah tidak digunakan"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "rest_api": [
+    {
+      "id": "rest_api_1",
+      "question": "Metode HTTP mana yang digunakan untuk memperbarui seluruh resource di REST API?",
+      "options": ["GET", "POST", "PUT", "DELETE"],
+      "correct_index": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "rest_api_2",
+      "question": "Anda mendesain REST API untuk sistem marketplace. Bagaimana Anda menangani operasi 'checkout' yang melibatkan banyak resource (cart, payment, inventory) secara atomik?",
+      "options": ["Menggunakan satu endpoint checkout yang melakukan semuanya", "Menerapkan pola saga atau dua fase commit di level aplikasi karena REST tidak memiliki transaksi bawaan lintas resource", "Menggunakan GET untuk checkout", "Membiarkan klien menangani semua langkah sendiri"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "rest_api_3",
+      "question": "Apa perbedaan fundamental antara REST dan GraphQL dalam hal over-fetching, under-fetching, dan versioning API?",
+      "options": ["REST sering mengalami over/under-fetching karena endpoint fixed dan perlu versioning (v1, v2), GraphQL memungkinkan klien meminta field spesifik dan menghindari versioning dengan deprecation field — tapi lebih kompleks di sisi server", "GraphQL selalu lebih baik dari REST", "REST tidak mendukung versioning", "Over-fetching adalah kelebihan REST"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "roadmapping": [
+    {
+      "id": "roadmapping_1",
+      "question": "Apa perbedaan antara product roadmap dan product backlog?",
+      "options": ["Roadmap adalah rencana strategis jangka panjang, backlog adalah daftar detail tugas yang akan dikerjakan", "Keduanya sama", "Roadmap untuk engineer, backlog untuk designer", "Roadmap lebih detail daripada backlog"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "roadmapping_2",
+      "question": "Anda membuat product roadmap untuk startup yang baru mendapat pendanaan Series A. Investor ingin melihat rencana 12 bulan. Bagaimana Anda menyusun roadmap yang realistis namun ambisius?",
+      "options": ["Menjanjikan semua fitur yang diminta investor", "Membuat roadmap berbasis tema (theme-based) dengan outcome, bukan output — fokus pada 'apa yang ingin dicapai' alih-alih 'fitur apa yang dibuat', dengan kuartal pertama detail dan kuartal selanjutnya lebih fleksibel", "Membuat roadmap hanya untuk 1 bulan", "Menyalin roadmap kompetitor"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "roadmapping_3",
+      "question": "Apa perbedaan antara 'now-next-later' roadmap dan timeline-based roadmap, dan dalam situasi apa format now-next-later lebih efektif?",
+      "options": ["Now-next-later mengelompokkan inisiatif berdasarkan prioritas relatif tanpa tanggal spesifik, timeline-based menetapkan deadline — now-next-later lebih efektif untuk startup yang berubah cepat dan menghindari ekspektasi tanggal yang kaku", "Now-next-later hanya untuk tim kecil", "Timeline-based selalu lebih profesional", "Now-next-later tidak bisa digunakan untuk pelaporan investor"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "sem": [
+    {
+      "id": "sem_1",
+      "question": "Apa kepanjangan dari SEM dalam digital marketing?",
+      "options": ["Social Engagement Marketing", "Search Engine Marketing", "System Error Message", "Sales Email Management"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "sem_2",
+      "question": "Anda menjalankan Google Ads untuk toko online fashion Indonesia. Quality Score iklan Anda rendah. Faktor apa yang PALING mempengaruhi Quality Score?",
+      "options": ["Budget harian kampanye", "Expected CTR, relevansi iklan dengan kata kunci, dan landing page experience", "Jumlah kompetitor", "Lokasi target iklan"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "sem_3",
+      "question": "Dalam lelang Google Ads, bagaimana mekanisme Ad Rank menentukan posisi iklan, dan mengapa pengiklan dengan bid lebih rendah bisa mendapat posisi lebih tinggi?",
+      "options": ["Posisi hanya ditentukan oleh bid tertinggi", "Ad Rank = Bid × Quality Score — pengiklan dengan bid lebih rendah tapi Quality Score lebih tinggi bisa mengalahkan bid tinggi dengan Quality Score rendah", "Posisi ditentukan secara acak", "Google memprioritaskan pengiklan yang spending-nya lebih besar"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "seo": [
+    {
+      "id": "seo_1",
+      "question": "Apa perbedaan antara SEO on-page dan SEO off-page?",
+      "options": ["On-page optimasi di dalam website (konten, meta tag), off-page optimasi di luar website (backlink, social signals)", "On-page untuk Google, off-page untuk Bing", "On-page berbayar, off-page gratis", "Tidak ada perbedaan"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "seo_2",
+      "question": "Website e-commerce Anda memiliki ribuan halaman produk. Banyak yang duplicate content karena variasi produk. Apa solusi SEO yang tepat?",
+      "options": ["Menghapus semua halaman produk", "Menggunakan canonical tag untuk menunjukkan halaman utama, dan mengoptimalkan unique content di halaman kategori", "Membiarkan duplicate content", "Memblokir semua halaman produk dari index"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "seo_3",
+      "question": "Bagaimana Google Core Web Vitals (LCP, FID/INP, CLS) mempengaruhi peringkat, dan strategi apa yang paling efektif untuk mengoptimalkan metrik ini di website e-commerce Indonesia yang mayoritas penggunanya mengakses via mobile 3G/4G?",
+      "options": ["Core Web Vitals tidak mempengaruhi peringkat", "Core Web Vitals adalah ranking signal — optimasi fokus pada: lazy loading gambar, code splitting, CDN lokal Indonesia, dan meminimalkan layout shift", "Core Web Vitals hanya untuk website berita", "Optimasi hanya diperlukan untuk desktop"],
+      "correct_index": 1,
+      "difficulty": 3
+    }
+  ],
+  "social_media": [
+    {
+      "id": "social_media_1",
+      "question": "Apa metrik paling penting untuk mengukur engagement di media sosial?",
+      "options": ["Jumlah followers", "Like, comment, share, dan save — yang menunjukkan interaksi aktif", "Jumlah postingan per hari", "Harga iklan"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "social_media_2",
+      "question": "Anda mengelola social media untuk brand kecantikan lokal Indonesia. Engagement rate turun drastis. Analisis apa yang harus dilakukan?",
+      "options": ["Langsung mengganti strategi konten", "Menganalisis data: jenis konten dengan engagement tertinggi, waktu posting optimal, perubahan algoritma platform, dan melakukan A/B testing konten baru", "Berhenti posting sementara", "Membeli followers"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "social_media_3",
+      "question": "Bagaimana strategi 'social listening' berbeda dari 'social monitoring', dan bagaimana menggunakannya untuk brand positioning di pasar Indonesia yang sensitif terhadap isu sosial?",
+      "options": ["Monitoring = mengukur metrik, Listening = memahami sentimen dan tren percakapan — listening membantu mendeteksi pergeseran sentimen konsumen Indonesia lebih awal dan menyesuaikan strategi brand sebelum krisis", "Keduanya identik", "Social listening tidak diperlukan untuk brand lokal", "Social monitoring adalah versi berbayar dari listening"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "sql": [
+    {
+      "id": "sql_1",
+      "question": "Apa perbedaan antara klausa WHERE dan HAVING dalam SQL?",
+      "options": ["WHERE memfilter baris sebelum agregasi, HAVING memfilter setelah agregasi (GROUP BY)", "Keduanya sama", "WHERE untuk SELECT, HAVING untuk INSERT", "HAVING tidak memerlukan GROUP BY"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "sql_2",
+      "question": "Anda perlu mencari pelanggan yang belanja di semua kategori produk. Tabel: customers, orders, order_items, products, categories. Apa pendekatan query yang tepat?",
+      "options": ["Menggunakan JOIN berantai dengan WHERE IN", "Menggunakan GROUP BY customer dengan HAVING COUNT(DISTINCT category_id) = (SELECT COUNT(*) FROM categories)", "Menggunakan UNION untuk setiap kategori", "Menggunakan LIKE untuk setiap kategori"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "sql_3",
+      "question": "Apa perbedaan antara INNER JOIN, LEFT JOIN, dan CROSS JOIN dalam SQL, dan kapan CROSS JOIN menjadi solusi yang tepat?",
+      "options": ["INNER JOIN = irisan, LEFT JOIN = semua kiri + irisan, CROSS JOIN = produk kartesian semua kombinasi — CROSS JOIN tepat untuk menghasilkan semua kemungkinan kombinasi (misal: semua varian produk × semua warna)", "Ketiganya identik", "CROSS JOIN selalu harus dihindari", "LEFT JOIN adalah CROSS JOIN dengan kondisi"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "stakeholder_management": [
+    {
+      "id": "stakeholder_management_1",
+      "question": "Apa tujuan utama dari stakeholder management dalam sebuah proyek?",
+      "options": ["Membuat semua stakeholder senang tanpa syarat", "Mengidentifikasi, menganalisis, dan mengelola ekspektasi serta pengaruh stakeholder untuk kesuksesan proyek", "Menghindari semua stakeholder", "Hanya fokus pada stakeholder dengan jabatan tertinggi"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "stakeholder_management_2",
+      "question": "Anda memiliki stakeholder dengan power tinggi tapi interest rendah terhadap proyek. Tiba-tiba dia memberikan feedback negatif di akhir. Apa yang salah dan bagaimana mencegahnya?",
+      "options": ["Stakeholder seperti itu harus diabaikan", "Stakeholder high-power low-interest harus dikelola dengan strategi 'keep satisfied' — dikirimi update berkala dan dilibatkan di milestone kunci, bukan diabaikan", "Langsung menerima semua feedback tanpa analisis", "Mengubah scope proyek setiap kali stakeholder memberi feedback"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "stakeholder_management_3",
+      "question": "Bagaimana RACI matrix membantu dalam stakeholder management, dan apa perbedaan kritis antara 'Accountable' dan 'Responsible'?",
+      "options": ["RACI = Responsible, Accountable, Consulted, Informed — Responsible mengerjakan tugas, Accountable bertanggung jawab akhir (hanya satu orang per tugas) — kebingungan antara keduanya adalah sumber utama konflik tim", "RACI hanya untuk proyek IT", "Accountable dan Responsible adalah peran yang sama", "RACI menggantikan semua komunikasi stakeholder"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "statistics": [
+    {
+      "id": "statistics_1",
+      "question": "Apa perbedaan antara mean, median, dan modus dalam statistika deskriptif?",
+      "options": ["Mean adalah rata-rata, median adalah nilai tengah, modus adalah nilai yang paling sering muncul", "Ketiganya sama", "Mean untuk data kecil, median untuk big data", "Modus selalu paling akurat"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "statistics_2",
+      "question": "Anda menganalisis gaji karyawan di perusahaan Indonesia. Distribusinya skewed right (beberapa eksekutif bergaji sangat tinggi). Ukuran pemusatan mana yang paling representatif?",
+      "options": ["Mean — karena paling umum digunakan", "Median — karena tidak terpengaruh outlier ekstrem seperti gaji direksi", "Range", "Standard deviation"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "statistics_3",
+      "question": "Apa perbedaan antara p-value dan confidence interval dalam pengujian hipotesis, dan mengapa hanya mengandalkan p-value bisa menyesatkan?",
+      "options": ["p-value mengukur probabilitas data jika H0 benar, confidence interval memberikan rentang nilai yang plausible — p-value < 0.05 tidak selalu berarti signifikan secara praktis (practical significance), efek kecil bisa signifikan dengan sampel besar", "p-value dan confidence interval adalah hal yang sama", "Confidence interval hanya untuk data parametrik", "p-value tidak pernah menyesatkan"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "tableau": [
+    {
+      "id": "tableau_1",
+      "question": "Apa perbedaan antara Tableau Worksheet, Dashboard, dan Story?",
+      "options": ["Worksheet adalah visualisasi tunggal, Dashboard gabungan beberapa worksheet, Story adalah urutan dashboard/worksheet untuk narasi", "Ketiganya sama", "Worksheet untuk data, Dashboard untuk gambar, Story untuk teks", "Dashboard hanya untuk presentasi"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "tableau_2",
+      "question": "Anda perlu membuat dashboard penjualan yang menampilkan data dari dua sumber berbeda: database SQL dan file Excel. Bagaimana cara menggabungkannya di Tableau?",
+      "options": ["Tidak bisa menggabungkan sumber data berbeda", "Menggunakan data blending di Tableau untuk menggabungkan data dari multiple sources pada level agregasi", "Harus menyatukan dulu di database", "Menggunakan UNION di Tableau"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "tableau_3",
+      "question": "Apa perbedaan antara Tableau extract (.hyper) dan live connection, dan kapan Anda memilih extract meskipun data source mendukung live connection?",
+      "options": ["Live connection query langsung ke source, extract adalah snapshot data yang dioptimalkan — pilih extract saat performa dashboard lambat dengan live, atau source tidak selalu available", "Extract selalu lebih lambat dari live", "Live connection hanya untuk Tableau Server", "Extract tidak bisa di-refresh"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "terraform": [
+    {
+      "id": "terraform_1",
+      "question": "Apa tujuan utama dari Infrastructure as Code (IaC) menggunakan Terraform?",
+      "options": ["Membuat dokumentasi manual", "Mengelola dan provisioning infrastruktur cloud secara deklaratif, repeatable, dan version-controlled", "Menggantikan semua sysadmin", "Membuat website"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "terraform_2",
+      "question": "Anda menjalankan 'terraform apply' dan gagal di tengah jalan. Beberapa resource sudah dibuat, beberapa belum. Apa yang terjadi dengan state Terraform?",
+      "options": ["Terraform otomatis menghapus semua resource yang sudah dibuat", "Terraform mencatat partial state — resource yang sudah dibuat tercatat di state, 'terraform apply' ulang akan melanjutkan dari titik kegagalan", "State Terraform tidak terpengaruh", "Harus menghapus state dan mulai dari awal"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "terraform_3",
+      "question": "Apa perbedaan antara Terraform locals, variables, dan data sources, serta kapan menggunakan masing-masing?",
+      "options": ["Variables untuk input yang bervariasi per environment, locals untuk nilai turunan yang dihitung dari variable/resource, data sources untuk membaca resource existing di cloud yang tidak dikelola Terraform", "Ketiganya identik", "Locals hanya untuk string, variables untuk number", "Data sources tidak bisa digunakan bersamaan dengan variables"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "testing": [
+    {
+      "id": "testing_1",
+      "question": "Apa perbedaan antara unit testing dan integration testing?",
+      "options": ["Unit testing menguji komponen individu secara terisolasi, integration testing menguji interaksi antar komponen", "Keduanya sama", "Unit testing untuk frontend, integration untuk backend", "Integration testing tidak memerlukan kode"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "testing_2",
+      "question": "Anda menulis unit test untuk fungsi yang bergantung pada API eksternal. Test gagal ketika API down, padahal fungsi Anda benar. Apa solusi yang tepat?",
+      "options": ["Menghapus test tersebut", "Menggunakan mocking/stubbing untuk API eksternal agar test independen dan deterministik", "Menunggu API up baru test dijalankan", "Mengabaikan kegagalan test"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "testing_3",
+      "question": "Apa perbedaan antara Test-Driven Development (TDD) dan Behavior-Driven Development (BDD), dan dalam konteks tim Indonesia yang memiliki QA dan Business Analyst terpisah, mana yang lebih sesuai?",
+      "options": ["TDD fokus pada unit test oleh developer (Red-Green-Refactor), BDD fokus pada spesifikasi yang bisa dibaca non-teknis (Gherkin) — BDD lebih sesuai untuk kolaborasi developer, QA, dan BA dalam satu tim", "TDD selalu lebih baik dari BDD", "BDD hanya untuk proyek government", "TDD dan BDD tidak bisa digunakan bersamaan"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "typescript": [
+    {
+      "id": "typescript_1",
+      "question": "Apa keunggulan utama TypeScript dibandingkan JavaScript?",
+      "options": ["TypeScript lebih cepat dieksekusi", "Type checking statis yang menangkap bug saat development, bukan saat runtime", "TypeScript tidak memerlukan kompilasi", "TypeScript hanya untuk proyek kecil"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "typescript_2",
+      "question": "Apa perbedaan antara 'type' dan 'interface' di TypeScript, dan kapan Anda memilih type daripada interface?",
+      "options": ["Tidak ada perbedaan", "Interface lebih baik untuk object shapes dan bisa di-merge (declaration merging), type lebih fleksibel untuk union, intersection, dan mapped types — pilih type untuk tipe kompleks non-object", "Interface hanya untuk class", "Type tidak bisa digunakan dengan generics"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "typescript_3",
+      "question": "Apa itu discriminated union (tagged union) di TypeScript, dan bagaimana pola ini meningkatkan type safety dalam state management?",
+      "options": ["Discriminated union menggunakan properti literal (discriminant) untuk membedakan varian tipe — TypeScript bisa mempersempit tipe otomatis di setiap branch, sangat berguna untuk Redux actions atau state machines", "Discriminated union adalah union type biasa", "Ini adalah fitur JavaScript, bukan TypeScript", "Discriminated union hanya untuk API response"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "usability_testing": [
+    {
+      "id": "usability_testing_1",
+      "question": "Apa tujuan utama dari usability testing?",
+      "options": ["Menguji apakah aplikasi bebas bug", "Mengevaluasi seberapa mudah dan memuaskan pengguna berinteraksi dengan produk", "Menguji kecepatan loading aplikasi", "Menguji keamanan aplikasi"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "usability_testing_2",
+      "question": "Anda melakukan usability testing untuk aplikasi pembayaran digital di Indonesia. Partisipan dari berbagai tingkat literasi digital. Bagaimana mendesain sesi testing yang inklusif?",
+      "options": ["Hanya merekrut partisipan yang sudah terbiasa dengan teknologi", "Menggunakan bahasa yang sederhana, memberikan konteks lokal, dan merekrut partisipan dari berbagai latar belakang — fokus pada task-based testing bukan fitur-based", "Menggunakan skrip testing bahasa Inggris", "Hanya melakukan testing dengan developer internal"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "usability_testing_3",
+      "question": "Apa perbedaan metodologis antara moderated usability testing, unmoderated testing, dan guerrilla testing, serta trade-off antara kedalaman insight vs kecepatan dan biaya?",
+      "options": ["Moderated = deep insights dengan fasilitator, unmoderated = lebih murah dan cepat tanpa fasilitator, guerrilla = informal di tempat umum — moderated untuk eksplorasi mendalam, unmoderated untuk validasi kuantitatif, guerrilla untuk quick feedback awal dengan biaya minimal", "Ketiganya identik", "Guerrilla testing adalah yang paling akurat", "Moderated testing tidak diperlukan untuk produk digital"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "user_research": [
+    {
+      "id": "user_research_1",
+      "question": "Apa perbedaan antara user research kualitatif dan kuantitatif?",
+      "options": ["Kualitatif mengeksplorasi 'mengapa' (wawancara), kuantitatif mengukur 'berapa banyak' (survei)", "Kualitatif menggunakan angka, kuantitatif menggunakan teks", "Kualitatif lebih akurat", "Kuantitatif tidak diperlukan"],
+      "correct_index": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "user_research_2",
+      "question": "Anda melakukan user research untuk aplikasi kesehatan di Indonesia. Banyak partisipan memberikan jawaban yang 'sopan' dan tidak jujur tentang kebiasaan buruk mereka. Bagaimana mengatasi bias sosial ini?",
+      "options": ["Menerima semua jawaban apa adanya", "Menggunakan metode observasi dan diary study sebagai pelengkap wawancara — perilaku aktual sering berbeda dari yang dilaporkan, terutama di budaya yang menghindari konfrontasi", "Hanya menggunakan survei online", "Mengabaikan bias karena tidak signifikan"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "user_research_3",
+      "question": "Apa perbedaan antara personas, jobs-to-be-done (JTBD), dan empathy map dalam user research, serta bagaimana ketiganya saling melengkapi?",
+      "options": ["Personas = profil demografis dan psikografis, JTBD = 'pekerjaan' yang ingin diselesaikan pengguna (situasional), Empathy map = apa yang pengguna pikirkan/rasakan/lihat — gunakan ketiganya: personas untuk 'siapa', JTBD untuk 'apa dan kapan', empathy map untuk 'mengapa'", "Ketiganya adalah tools yang sama", "Hanya personas yang diperlukan", "JTBD hanya untuk B2B, personas untuk B2C"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ],
+  "wireframing": [
+    {
+      "id": "wireframing_1",
+      "question": "Apa fokus utama dalam tahap wireframing?",
+      "options": ["Warna dan tipografi", "Struktur, layout, dan hierarki informasi — BUKAN detail visual", "Animasi dan transisi", "Copywriting final"],
+      "correct_index": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "wireframing_2",
+      "question": "Anda membuat wireframe halaman dashboard. Stakeholder non-teknis bingung karena wireframe terlihat 'kosong' dan memberikan feedback tentang warna. Bagaimana mengelola ekspektasi?",
+      "options": ["Langsung menambahkan warna di wireframe", "Menjelaskan bahwa wireframe adalah blueprint struktural, dan mendemonstrasikan bagaimana wireframe bisa di-click untuk menunjukkan flow — gunakan prototype klikabel sederhana untuk stakeholder", "Mengabaikan feedback stakeholder", "Melewati tahap wireframe dan langsung ke high-fidelity"],
+      "correct_index": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "wireframing_3",
+      "question": "Apa perbedaan pendekatan antara 'sketch-first wireframing' dan 'digital wireframing', dan mengapa masih relevan memulai dengan sketsa kertas di era tools digital canggih?",
+      "options": ["Sketsa kertas menghilangkan distraksi tools dan memungkinkan eksplorasi ide lebih cepat dan bebas — digital untuk refinement dan kolaborasi. Sketsa tetap relevan karena kecepatan iterasi dan rendahnya attachment terhadap ide", "Sketsa kertas sudah usang", "Digital wireframing selalu lebih baik", "Sketsa kertas hanya untuk designer senior"],
+      "correct_index": 0,
+      "difficulty": 3
+    }
+  ]
+}
